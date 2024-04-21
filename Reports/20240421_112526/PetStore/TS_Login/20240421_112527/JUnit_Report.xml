@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Login" time="10.054" tests="1" failures="0" errors="0">
+   <testsuite name="TS_Login" tests="1" failures="0" errors="0" time="10.054" skipped="0" timestamp="21-04-2024T11:25:32" hostname="WINDOWS11 - Mohan" id="Test Suites/PetStore/TS_Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WINDOWS11\\git\\katalonpractice2024\\Reports\\20240421_112526\\PetStore\\TS_Login\\20240421_112527"/>
+         <property name="logFiles" value="C:\\Users\\WINDOWS11\\git\\katalonpractice2024\\Reports\\20240421_112526\\PetStore\\TS_Login\\20240421_112527\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WINDOWS11 - Mohan"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Chrome 124.0.0.0"/>
+         <property name="hostAddress" value="192.168.106.11"/>
+         <property name="sessionId" value="1e707505fedc336154faac62cd9f9ece"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/PetStore/Login" time="9.844" classname="Test Cases/PetStore/Login" status="PASSED">
+         <system-out><![CDATA[21-04-2024T11:25:32 - [TEST_CASE][PASSED] - Test Cases/PetStore/Login: Test Cases/PetStore/Login
+
+21-04-2024T11:25:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-04-2024T11:25:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-04-2024T11:25:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-04-2024T11:25:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-04-2024T11:25:34 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+21-04-2024T11:25:35 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+21-04-2024T11:25:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/PetStoreLogin/Page_JPetStore Demo/a_Enter the Store"), 0): Object 'Object Repository/PetStoreLogin/Page_JPetStore Demo/a_Enter the Store' is present
+
+21-04-2024T11:25:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+21-04-2024T11:25:35 - [MESSAGE][PASSED] - Object 'Object Repository/PetStoreLogin/Page_JPetStore Demo/a_Enter the Store' is present
+
+21-04-2024T11:25:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PetStoreLogin/Page_JPetStore Demo/a_Enter the Store")): Object: 'Object Repository/PetStoreLogin/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+21-04-2024T11:25:37 - [MESSAGE][PASSED] - Object: 'Object Repository/PetStoreLogin/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+21-04-2024T11:25:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PetStoreLogin/Page_JPetStore Demo/a_Sign In")): Object: 'Object Repository/PetStoreLogin/Page_JPetStore Demo/a_Sign In' is clicked on
+
+21-04-2024T11:25:37 - [MESSAGE][PASSED] - Object: 'Object Repository/PetStoreLogin/Page_JPetStore Demo/a_Sign In' is clicked on
+
+21-04-2024T11:25:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PetStoreLogin/Page_JPetStore Demo/input_Need a user name and password_username"), "mohan1"): Text 'mohan1' is set on object 'Object Repository/PetStoreLogin/Page_JPetStore Demo/input_Need a user name and password_username'
+
+21-04-2024T11:25:38 - [MESSAGE][PASSED] - Text 'mohan1' is set on object 'Object Repository/PetStoreLogin/Page_JPetStore Demo/input_Need a user name and password_username'
+
+21-04-2024T11:25:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/PetStoreLogin/Page_JPetStore Demo/input_Need a user name and password_password"), "qPDWtMYEx+8="): Text ****** has been set on object 'Object Repository/PetStoreLogin/Page_JPetStore Demo/input_Need a user name and password_password'
+
+21-04-2024T11:25:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PetStoreLogin/Page_JPetStore Demo/input_Need a user name and password_password'
+
+21-04-2024T11:25:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PetStoreLogin/Page_JPetStore Demo/p_UsernamesetTimeout(function()tryvar zdocu_78db45")): Object: 'Object Repository/PetStoreLogin/Page_JPetStore Demo/p_UsernamesetTimeout(function()tryvar zdocu_78db45' is clicked on
+
+21-04-2024T11:25:39 - [MESSAGE][PASSED] - Object: 'Object Repository/PetStoreLogin/Page_JPetStore Demo/p_UsernamesetTimeout(function()tryvar zdocu_78db45' is clicked on
+
+21-04-2024T11:25:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/PetStoreLogin/Page_JPetStore Demo/input_Need a user name and password_password"), "NXt0rM6HQe0="): Text ****** has been set on object 'Object Repository/PetStoreLogin/Page_JPetStore Demo/input_Need a user name and password_password'
+
+21-04-2024T11:25:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PetStoreLogin/Page_JPetStore Demo/input_Need a user name and password_password'
+
+21-04-2024T11:25:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PetStoreLogin/Page_JPetStore Demo/input_Need a user name and password_signon")): Object: 'Object Repository/PetStoreLogin/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+21-04-2024T11:25:40 - [MESSAGE][PASSED] - Object: 'Object Repository/PetStoreLogin/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+21-04-2024T11:25:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PetStoreLogin/Page_JPetStore Demo/a_Sign Out")): Object: 'Object Repository/PetStoreLogin/Page_JPetStore Demo/a_Sign Out' is clicked on
+
+21-04-2024T11:25:41 - [MESSAGE][PASSED] - Object: 'Object Repository/PetStoreLogin/Page_JPetStore Demo/a_Sign Out' is clicked on
+
+21-04-2024T11:25:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-04-2024T11:25:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-04-2024T11:25:32 - [TEST_SUITE][PASSED] - TS_Login: Test Cases/PetStore/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
