@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_VisualTesting,Chrome 124.0.0.0,,,28-04-2024 11:54:55,28-04-2024 11:55:01,6.460s,PASSED
+,,,,,,,
+Test Cases/PetStore/ProductNavigation_TC,Chrome 124.0.0.0,,,28-04-2024 11:54:55,28-04-2024 11:55:01,6.232s,PASSED
+"openBrowser("""")",Chrome 124.0.0.0,,,28-04-2024 11:54:55,28-04-2024 11:54:57,1.972s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Chrome 124.0.0.0,,,28-04-2024 11:54:57,28-04-2024 11:54:58,0.826s,PASSED
+"click(findTestObject(""Object Repository/VisualTestingCheckPoint/Page_JPetStore Demo/a_Enter the Store""))",Chrome 124.0.0.0,,,28-04-2024 11:54:58,28-04-2024 11:54:59,1.464s,PASSED
+"takeScreenshotAsCheckpoint(""mypic"")",Chrome 124.0.0.0,,,28-04-2024 11:54:59,28-04-2024 11:55:00,0.883s,PASSED
+"click(findTestObject(""Object Repository/VisualTestingCheckPoint/Page_JPetStore Demo/a_Sign In""))",Chrome 124.0.0.0,,,28-04-2024 11:55:00,28-04-2024 11:55:01,0.563s,PASSED
+closeBrowser(),Chrome 124.0.0.0,,,28-04-2024 11:55:01,28-04-2024 11:55:01,0.232s,PASSED

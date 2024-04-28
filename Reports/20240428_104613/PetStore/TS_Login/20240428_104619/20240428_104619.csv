@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Login,Chrome 124.0.0.0,,,28-04-2024 10:46:23,28-04-2024 10:46:36,12.933s,PASSED
+,,,,,,,
+Test Cases/PetStore/Login,Chrome 124.0.0.0,,,28-04-2024 10:46:23,28-04-2024 10:46:36,12.510s,PASSED
+"openBrowser("""")",Chrome 124.0.0.0,,,28-04-2024 10:46:24,28-04-2024 10:46:28,4.697s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Chrome 124.0.0.0,,,28-04-2024 10:46:28,28-04-2024 10:46:29,0.805s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/PetStoreLogin/Page_JPetStore Demo/a_Enter the Store""), 0)",Chrome 124.0.0.0,,,28-04-2024 10:46:29,28-04-2024 10:46:30,0.445s,PASSED
+"click(findTestObject(""Object Repository/PetStoreLogin/Page_JPetStore Demo/a_Enter the Store""))",Chrome 124.0.0.0,,,28-04-2024 10:46:30,28-04-2024 10:46:31,1.246s,PASSED
+"click(findTestObject(""Object Repository/PetStoreLogin/Page_JPetStore Demo/a_Sign In""))",Chrome 124.0.0.0,,,28-04-2024 10:46:31,28-04-2024 10:46:31,0.707s,PASSED
+"setText(findTestObject(""Object Repository/PetStoreLogin/Page_JPetStore Demo/input_Need a user name and password_username""), ""mohan1"")",Chrome 124.0.0.0,,,28-04-2024 10:46:31,28-04-2024 10:46:32,0.818s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/PetStoreLogin/Page_JPetStore Demo/input_Need a user name and password_password""), ""qPDWtMYEx+8="")",Chrome 124.0.0.0,,,28-04-2024 10:46:32,28-04-2024 10:46:33,0.438s,PASSED
+"click(findTestObject(""Object Repository/PetStoreLogin/Page_JPetStore Demo/p_UsernamesetTimeout(function()tryvar zdocu_78db45""))",Chrome 124.0.0.0,,,28-04-2024 10:46:33,28-04-2024 10:46:33,0.380s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/PetStoreLogin/Page_JPetStore Demo/input_Need a user name and password_password""), ""NXt0rM6HQe0="")",Chrome 124.0.0.0,,,28-04-2024 10:46:33,28-04-2024 10:46:34,0.429s,PASSED
+"click(findTestObject(""Object Repository/PetStoreLogin/Page_JPetStore Demo/input_Need a user name and password_signon""))",Chrome 124.0.0.0,,,28-04-2024 10:46:34,28-04-2024 10:46:34,0.887s,PASSED
+"click(findTestObject(""Object Repository/PetStoreLogin/Page_JPetStore Demo/a_Sign Out""))",Chrome 124.0.0.0,,,28-04-2024 10:46:34,28-04-2024 10:46:35,0.848s,PASSED
+closeBrowser(),Chrome 124.0.0.0,,,28-04-2024 10:46:35,28-04-2024 10:46:36,0.305s,PASSED
